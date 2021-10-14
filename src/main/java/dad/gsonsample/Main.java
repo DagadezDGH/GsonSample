@@ -7,8 +7,11 @@ public class Main {
 	public static void main (String[] args) {
 		Persona alguien =new Persona();
 		Scanner scanner= new Scanner(System.in);
+		System.out.println("Introduzca un nombre");
 		String nombre= scanner.nextLine();
+		System.out.println("Introduzca un apellido");
 		String apellido= scanner.nextLine();
+		System.out.println("Introduzca la edad");
 		int edad = scanner.nextInt();
 		alguien.setfirstName(nombre);
 		alguien.setlastName(apellido);
